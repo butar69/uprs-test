@@ -1,0 +1,45 @@
+!-- code php -->
+                  <?php
+                    if(isset($_POST['submit']))
+                        {
+                            $status = $_POST['status'];
+                            $lantai = $_POST['lantai'];
+                            $blok = $_POST['blok'];
+                            $unit = $_POST['unit'];
+                            $tarif = $_POST['tarif'];  
+
+                            $go = "INSERT INTO sewa (status, lantai, blok, unit, tarif) VALUES ('$status', '$lantai', '$blok', '$unit', '$tarif')" ;
+
+                            $run = mysqli_query($koneksi,$go);
+                            $last_id = mysqli_insert_id($koneksi);
+
+                            // echo "<script>location.href='index.php?halaman=daftar'</script>";
+                        }
+
+                        // if (isset($_POST['lantai'])) {
+                        //     $lantai =  $_POST['lantai'];
+                        //     $select_lantai = "SELECT * FROM `rusun` where )" ;
+
+                        //     $run = mysqli_query($koneksi,$select_lantai);
+                        // }
+                    ?>                 
+<!-- 
+                    <script type="text/javascript">
+                            
+
+                        $('#change_lantai').change(function(){
+
+
+                             $.post("http://localhost/uprs/admin/index.php?halaman=sewa",{lantai : '1'}, function(data, status){
+                                
+                              });
+
+
+                        })
+
+                        $('#change_status').change(function(){
+                            alert('run')
+                        })
+
+                    </script> -->
+                    

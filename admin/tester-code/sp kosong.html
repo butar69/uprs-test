@@ -1,0 +1,1898 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="LibreOffice 4.1.6.2 (Linux)">
+	<META NAME="AUTHOR" CONTENT="rusunawacipinang">
+	<META NAME="CREATED" CONTENT="20190228;62900000000000">
+	<META NAME="CHANGEDBY" CONTENT="uhan hudaya">
+	<META NAME="CHANGED" CONTENT="20190306;90900000000000">
+	<META NAME="AppVersion" CONTENT="14.0000">
+	<META NAME="DocSecurity" CONTENT="0">
+	<META NAME="HyperlinksChanged" CONTENT="false">
+	<META NAME="LinksUpToDate" CONTENT="false">
+	<META NAME="ScaleCrop" CONTENT="false">
+	<META NAME="ShareDoc" CONTENT="false">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { size: 8.5in 13in; margin-left: 1in; margin-right: 1in; margin-top: 0.08in; margin-bottom: 1.1in }
+		P { margin-bottom: 0in; direction: ltr; color: #000000; line-height: 100%; widows: 2; orphans: 2 }
+		P.western { font-family: "Times New Roman", serif; font-size: 12pt }
+		P.cjk { font-family: "Times New Roman"; font-size: 12pt }
+		P.ctl { font-family: "Times New Roman"; font-size: 10pt }
+		H1 { margin-top: 0in; margin-bottom: 0in; direction: ltr; color: #000000; line-height: 100%; text-align: center; widows: 2; orphans: 2 }
+		H1.western { font-family: "Times New Roman", serif; font-size: 12pt }
+		H1.cjk { font-family: "Times New Roman"; font-size: 12pt }
+		H1.ctl { font-family: "Times New Roman"; font-size: 10pt; font-weight: normal }
+		H2 { margin-left: 0.59in; margin-right: 0.03in; margin-top: 0in; margin-bottom: 0in; direction: ltr; color: #000000; line-height: 100%; text-align: center; widows: 2; orphans: 2 }
+		H2.western { font-size: 12pt; font-weight: normal }
+		H2.cjk { font-family: "Times New Roman"; font-size: 12pt; font-weight: normal }
+		H2.ctl { font-family: "Times New Roman"; font-size: 10pt; font-weight: normal }
+		H4 { margin-left: 0.64in; margin-top: 0in; margin-bottom: 0.08in; direction: ltr; color: #000000; line-height: 100%; text-align: center; widows: 2; orphans: 2 }
+		H4.western { font-weight: normal }
+		H4.cjk { font-family: "Times New Roman"; font-weight: normal }
+		H4.ctl { font-family: "Times New Roman"; font-size: 10pt; font-weight: normal }
+		A:link { color: #0000ff; so-language: zxx }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-US" LINK="#0000ff" DIR="LTR">
+
+<?php
+	$koneksi = mysqli_connect('localhost','root','','uprs');
+		$id_sp = $_GET['id_sp'];
+	         $con1 = "SELECT * FROM data_sp join daftar_sp on data_sp.id_sp = daftar_sp.id_sp where data_sp.id_sp != $id_sp order by data_sp.id_sp";
+	         $get4 = mysqli_query($koneksi, $con1);
+			 $data = mysqli_fetch_assoc($get4);
+?>
+
+<DIV TYPE=HEADER>
+	<P ALIGN=CENTER STYLE="margin-left: 0.59in"><BR>
+	</P>
+	<P ALIGN=CENTER STYLE="margin-left: 0.59in; margin-bottom: 0.38in"><FONT COLOR="#000000"><FONT SIZE=2>	</FONT></FONT></P>
+</DIV>
+<H2 CLASS="western" ALIGN=LEFT STYLE="margin-left: 0in"><BR>
+</H2>
+<H2 LANG="id-ID" CLASS="western"><BR>
+</H2>
+<H2 CLASS="western"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><B>SURAT
+PERJANJIAN</B></FONT></FONT></H2>
+<P ALIGN=CENTER STYLE="margin-left: 0.59in; margin-top: 0.08in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">NOMOR
+ : </SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="en-ID">…………….
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><I>/-076.43</I></SPAN></FONT></FONT></FONT></P>
+<P ALIGN=CENTER STYLE="margin-left: 0.59in; margin-top: 0.08in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">TENTANG</SPAN></FONT></FONT></FONT></P>
+<P LANG="sv-SE" ALIGN=CENTER STYLE="margin-left: 0.59in; margin-top: 0.08in">
+<BR>
+</P>
+<H2 CLASS="western"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>PERJANJIAN
+SEWA MENYEWA BAGI PENGHUNI</B></SPAN></FONT></FONT></FONT></H2>
+<P ALIGN=CENTER STYLE="margin-left: 0.59in; margin-top: 0.08in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>SATUAN
+</B></SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE"><B>RUMAH
+SUSUN SEDERHANA SEWA (PERPANJANGAN)</B></SPAN></FONT></FONT></FONT></P>
+<P LANG="id-ID" ALIGN=JUSTIFY STYLE="margin-left: 0.59in"><BR>
+</P>
+<P LANG="id-ID" ALIGN=JUSTIFY STYLE="margin-left: 0.59in"><BR>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-left: 0.39in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">Pada
+hari ini</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO"><I><B>
+</B></I></SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="en-ID"><I><B>……………
+</B></I></SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">tanggal</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><I><B>
+</B></I></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="en-ID"><I><B>……………
+</B></I></SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">yang
+bertanda tangan dibawah ini  :</SPAN></FONT></FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="text-indent: 0.63in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=1 STYLE="font-size: 8pt"><SPAN LANG="nb-NO">a</SPAN></FONT></FONT></FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 2.46in; text-indent: -2.07in">
+<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">1.	Nama	:	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>Drs.
+NUGRAHARYADI</B></FONT></FONT></FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 2.46in; text-indent: -1.77in">
+<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">Jabatan	:	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Kepala
+Unit Pengelola</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Rumah</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Susun
+</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Cipinang</SPAN></FONT></FONT></FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 2.46in; text-indent: -2.07in">
+<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">		Dinas
+Perumahan Rakyat dan Kawasan Permukiman Provinsi DKI Jakarta </FONT></FONT></FONT></FONT>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 2.46in; text-indent: -1.77in">
+<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">NIP	:	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">197305021992031003</FONT></FONT></FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 2.46in; text-indent: -1.77in">
+<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">Alamat	:	Jl.
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Griya
+Wartawan Kel. Cipinang Besar Selatan Kec. Jatinegara Kota
+Administrasi Jakarta Timur</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">
+Provinsi DKI Jakarta</SPAN></FONT></FONT></FONT></FONT></P>
+<P LANG="nb-NO" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 2.56in; text-indent: -1.63in">
+<BR>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-left: 0.39in"><A NAME="_GoBack"></A><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">Bertindak
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">sebagai
+</SPAN></FONT></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Kepala
+Unit Pengelola</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Rumah</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Susun
+</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Cipinang
+</SPAN></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">dan
+oleh karena jabatannya yang dalam hal ini adalah sebagai
+Pemilik/Pihak Yang Menyewakan/Pengelola selanjutnya disebut sebagai
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO"><B>PIHAK
+PERTAMA</B></SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">.</SPAN></FONT></FONT></FONT></P>
+<P LANG="nb-NO" ALIGN=JUSTIFY STYLE="margin-left: 0.59in"><BR>
+</P>
+<TABLE WIDTH=597 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=14>
+	<COL WIDTH=132>
+	<COL WIDTH=6>
+	<COL WIDTH=389>
+	<TR VALIGN=TOP>
+		<TD WIDTH=14 HEIGHT=6 STYLE="border: none; padding: 0in">
+			<P ALIGN=JUSTIFY><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">2.</SPAN></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=132 STYLE="border: none; padding: 0in">
+			<P ALIGN=JUSTIFY STYLE="margin-left: 0.01in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">Nama</SPAN></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=6 STYLE="border: none; padding: 0in">
+			<P ALIGN=JUSTIFY><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">:</SPAN></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=389 STYLE="border: none; padding: 0in">
+			<P ALIGN=JUSTIFY STYLE="text-indent: -0.05in"><FONT COLOR="#00000a">……………………<FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>.</B></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=14 HEIGHT=6 STYLE="border: none; padding: 0in">
+			<P LANG="nb-NO" ALIGN=JUSTIFY><BR>
+			</P>
+		</TD>
+		<TD WIDTH=132 STYLE="border: none; padding: 0in">
+			<P ALIGN=JUSTIFY STYLE="margin-left: 0.01in"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">NIK</SPAN></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=6 STYLE="border: none; padding: 0in">
+			<P ALIGN=JUSTIFY><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">:</SPAN></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=389 STYLE="border: none; padding: 0in">
+			<P ALIGN=JUSTIFY STYLE="margin-left: -0.08in"><FONT COLOR="#00000a">……………………</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=14 HEIGHT=6 STYLE="border: none; padding: 0in">
+			<P LANG="nb-NO" ALIGN=JUSTIFY><BR>
+			</P>
+		</TD>
+		<TD WIDTH=132 STYLE="border: none; padding: 0in">
+			<P ALIGN=JUSTIFY STYLE="margin-left: 0.01in"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">Tempat
+			/ Tgl. Lahir</SPAN></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=6 STYLE="border: none; padding: 0in">
+			<P ALIGN=JUSTIFY><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">:</SPAN></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=389 STYLE="border: none; padding: 0in">
+			<P ALIGN=JUSTIFY STYLE="margin-left: -0.08in"><FONT COLOR="#00000a">……………………<FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">..</FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=14 HEIGHT=5 STYLE="border: none; padding: 0in">
+			<P LANG="nb-NO" ALIGN=JUSTIFY><BR>
+			</P>
+		</TD>
+		<TD WIDTH=132 STYLE="border: none; padding: 0in">
+			<P ALIGN=JUSTIFY STYLE="margin-left: 0.01in"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">Pekerjaan</SPAN></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=6 STYLE="border: none; padding: 0in">
+			<P ALIGN=JUSTIFY><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">:</SPAN></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=389 STYLE="border: none; padding: 0in">
+			<P ALIGN=JUSTIFY STYLE="margin-left: -0.08in"><FONT COLOR="#00000a">……………………<FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">..</FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=14 HEIGHT=44 STYLE="border: none; padding: 0in">
+			<P LANG="nb-NO" ALIGN=JUSTIFY><BR>
+			</P>
+		</TD>
+		<TD WIDTH=132 STYLE="border: none; padding: 0in">
+			<P ALIGN=JUSTIFY STYLE="margin-left: 0.01in"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">Alamat</SPAN></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=6 STYLE="border: none; padding: 0in">
+			<P ALIGN=JUSTIFY><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">:</SPAN></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=389 STYLE="border: none; padding: 0in">
+			<P ALIGN=JUSTIFY STYLE="margin-left: -0.08in"><FONT COLOR="#00000a">………………………………………………………………………</FONT></P>
+		</TD>
+	</TR>
+</TABLE>
+<P LANG="id-ID" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 2.06in">
+<BR>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-left: 0.39in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">Bertindak
+untuk dan atas nama </SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">pribadi</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">,
+yang dalam hal ini adalah sebagai Penyewa/Pemakai </SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">satuan
+rumah susun sederhana sewa </SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">selanjutnya
+disebut sebagai </SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO"><B>PIHAK
+KEDUA</B></SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">.</SPAN></FONT></FONT></FONT></P>
+<P LANG="id-ID" ALIGN=JUSTIFY STYLE="margin-left: 0.39in"><BR>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-left: 0.39in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Untuk
+seterusnya PIHAK PERTAMA dan PIHAK KEDUA secara bersama-sama disebut
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>&quot;PARA
+PIHAK&quot;</B></SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">.</SPAN></FONT></FONT></FONT></P>
+<P LANG="id-ID" ALIGN=JUSTIFY STYLE="margin-left: 0.39in"><BR>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-left: 0.39in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">Bahwa
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">PARA
+PIHAK </SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">sepakat
+membuat perjanjian sewa</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+menyewa </SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">pemakaian</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+satuan</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">
+Rumah Susun Sederhana Sewa </SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>Cipinang</B></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>
+</B></SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>Besar
+Selatan </B></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">yang
+terletak di </SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">J</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">alan
+</SPAN></FONT></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>Griya
+Wartawan</B></SPAN></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>
+</B></SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">Kelurahan</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO"><B>
+Cipinang Besar Selatan</B></SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">
+Kecamatan </SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO"><B>Jatinegara
+</B></SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">Kota
+Administrasi</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>Jakarta
+Timur</B></SPAN></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>
+</B></SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">dengan
+ketentuan sebagai  berikut :</SPAN></FONT></FONT></FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-left: 0.59in"><BR>
+</P>
+<H1 CLASS="western" STYLE="margin-left: 0.59in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Pasal
+</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">1</SPAN></FONT></FONT></FONT></H1>
+<H1 CLASS="western" STYLE="margin-left: 0.59in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">OBJE</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">K
+SEWA</SPAN></FONT></FONT></FONT></H1>
+<P LANG="id-ID" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0.64in">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0.39in; margin-bottom: 0.08in">
+<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">PIHAK
+PERTAMA menyewakan kepada PIHAK KEDUA satuan Rumah Susun Sederhana
+Sewa </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>Cipinang</B></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>
+</B></SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>Besar
+Selatan </B></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">yang
+terletak di :</SPAN></FONT></FONT></FONT></FONT></P>
+<TABLE WIDTH=567 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=111>
+	<COL WIDTH=5>
+	<COL WIDTH=409>
+	<TR VALIGN=TOP>
+		<TD WIDTH=111 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=JUSTIFY><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Cluster	</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=5 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=JUSTIFY><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">:</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=409 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=JUSTIFY><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">-</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=111 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=JUSTIFY><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Blok/Lantai</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=5 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=JUSTIFY><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">:</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=409 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=JUSTIFY><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>B
+			</B></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>/
+			</B></SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="en-ID"><B>IV</B></SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=111 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=JUSTIFY><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Nomor</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=5 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=JUSTIFY><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">:</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=409 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=JUSTIFY><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>411</B></FONT></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=111 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=JUSTIFY><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Peruntukkan</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=5 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=JUSTIFY><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">:</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=409 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=JUSTIFY><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>Hunian</B></SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+</TABLE>
+<P CLASS="western"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">	(Selanjutnya
+disebut </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>&quot;Sarusunawa&quot;</B></SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">)</SPAN></FONT></FONT></FONT></FONT></P>
+<P LANG="id-ID" CLASS="western" STYLE="margin-left: 0.64in"><BR>
+</P>
+<P ALIGN=CENTER STYLE="margin-left: 0.59in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO"><B>Pasal
+ </B></SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>2</B></SPAN></FONT></FONT></FONT></P>
+<P CLASS="western" ALIGN=CENTER STYLE="margin-left: 0.59in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO"><B>J</B></SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>ANGKA
+WAKTU</B></SPAN></FONT></FONT></FONT></FONT></P>
+<P LANG="id-ID" ALIGN=JUSTIFY STYLE="margin-left: 0.59in"><BR>
+</P>
+<OL>
+	<LI><P CLASS="western" ALIGN=JUSTIFY><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">Jangka
+	waktu Perjanjian ini adalah selama 2 (dua) tahun, terhitung sejak
+	tanggal ditanda</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">tangani</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">nya</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">
+	Perjanjian ini sampai dengan</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">tanggal</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">
+	</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="en-ID"><I><B>6
+	Februari 2021</B></I></SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><I><B>
+	</B></I></SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dan</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dapat</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">diperpanjang</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">berdasarkan</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">pertimbangan
+	PIHAK PERTAMA;</FONT></FONT></FONT></FONT></P>
+</OL>
+<P LANG="id-ID" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0.69in">
+<BR>
+</P>
+<OL START=2>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-top: 0.08in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Apabila
+	di setujui oleh PIHAK PERTAMA maka Perjanjian ini dapat diperpanjang
+	untuk jangka waktu yang sama dengan mengajukan permohonan
+	perpanjangan Perjanjian kepada PIHAK PERTAMA paling lambat 30 (tiga
+	puluh) hari sebelum jangka waktu perjanjian ini berakhir. </SPAN></FONT></FONT></FONT></FONT>
+	</P>
+</OL>
+<H1 CLASS="western" ALIGN=LEFT><BR>
+</H1>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<H1 CLASS="western" STYLE="margin-left: 0.59in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Pasal
+ 3</FONT></FONT></FONT></H1>
+<P CLASS="western" ALIGN=CENTER STYLE="margin-left: 0.59in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>BIAYA
+SEWA</B></SPAN></FONT></FONT></FONT></FONT></P>
+<P LANG="id-ID" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0.59in">
+<BR>
+</P>
+<OL>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.04in; margin-bottom: 0.04in">
+	<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Biaya
+	sewa sarusunawa sebagai mana dimaksud dalam Pasal 1 </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">perbulan</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	sebesar </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>Rp.341.000</B></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>
+	</B></SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">(</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><I><B>Tiga
+	Ratus Empat Puluh Satu Ribu Rupiah</B></I></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">)
+	d</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">an
+	pembayarannya dilakukan setiap bulan dari tanggal 1 s/d tanggal 20</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">.</FONT></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.04in; margin-bottom: 0.04in">
+	<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Biaya
+	sewa sarusunawa</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">
+	dapat berubah </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">sesuai
+	ketentuan tarif yang ditetapkan berdasarkan peraturan
+	perundang-undangan</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>.</B></FONT></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.04in; margin-bottom: 0.04in">
+	<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Perubahan
+	biaya sewa berlaku sejak ditetapkannya peraturan perundang-undangan.</SPAN></FONT></FONT></FONT></FONT></P>
+</OL>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0.89in"><BR>
+</P>
+<H1 CLASS="western" STYLE="margin-left: 0.59in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Pasal
+4</FONT></FONT></FONT></H1>
+<H1 CLASS="western" STYLE="margin-left: 0.59in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">H</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">AK
+DAN KEWAJIBAN</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">
+PIHAK </FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">PERTAMA</SPAN></FONT></FONT></FONT></H1>
+<P LANG="id-ID" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0.64in">
+<BR>
+</P>
+<OL>
+	<LI><P CLASS="western" ALIGN=JUSTIFY><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">PIHAK
+	PERTAMA berhak </FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">untuk
+	:</SPAN></FONT></FONT></FONT></P>
+</OL>
+<OL TYPE=a>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">melakukan
+	seleksi dan menetapkan calon penghuni;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">memutuskan
+	perjanjian sewa menyewa apabila penghuni melanggar ketentuan dalam
+	perjanjian sewa menyewa;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">m</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">enagih/menerima</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	biaya s</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ewa</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	dan/atau biaya lainnya yang telah ditetapkan;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">memberikan
+	sanksi denda atas keterlambatan pembayaran yang menjadi kewajiban
+	penghuni serta pelanggaran terhadap tata tertib penghunian
+	sebagaimana diatur dalam perjanjian sewa menyewa dan tata tertib
+	penghunian;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">melaksanakan
+	pengaturan dan penertiban administrasi berkaitan dengan hak,
+	kewajiban dan larangan penghuni; dan</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">melaksanakan
+	pengaturan dan penertiban teknis berkaitan dengan pengelolaan
+	rusunawa.</SPAN></FONT></FONT></FONT></P>
+</OL>
+<OL START=2>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.08in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">PIHAK
+	PERTAMA berkewajiban untuk :</SPAN></FONT></FONT></FONT></P>
+</OL>
+<OL TYPE=a>
+	<OL TYPE=a>
+		<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+		<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">membuat
+		perjanjian sewa menyewa dengan calon penghuni;</SPAN></FONT></FONT></FONT></P>
+		<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+		<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">menyediakan
+		sarana dan prasarana rusunawa;</SPAN></FONT></FONT></FONT></P>
+		<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+		<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">melakukan
+		pemeriksaan, perawatan, pemeliharaan, perbaikan secara teratur
+		terhadap seluruh elemen dan komponen rusunawa serta inspeksi
+		reguler dan insidental yang dapat dilakukan bersama SKPD/UKPD
+		terkait;</SPAN></FONT></FONT></FONT></P>
+		<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+		<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">mewujudkan
+		lingkungan yang bersih dan teratur;</SPAN></FONT></FONT></FONT></P>
+		<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+		<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">menjaga
+		situasi dan kondisi keamanan Iingkungan dan menjalin kerja sama
+		dengan aparat keamanan;</SPAN></FONT></FONT></FONT></P>
+		<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+		<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">mengadakan
+		sosialisasi berkala termasuk pelatihan dan bimbingan tentang
+		keadaan darurat dan bahaya kebakaran kepada penghuni;</SPAN></FONT></FONT></FONT></P>
+		<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+		<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">mengembalikan
+		uang jaminan dari penghuni, apabiia terjadi perjanjian sewa menyewa
+		antara UPRS dan penghuni yang berakhir/dibatalkan;</SPAN></FONT></FONT></FONT></P>
+		<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+		<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">menanggapi
+		pengaduan/keluhan atas laporan yang disampaikan oleh penghuni;</SPAN></FONT></FONT></FONT></P>
+		<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+		<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">menyediakan
+		prasarana dasar Iistrik dan air bersih sesuai yang telah disepakati
+		dalam perjanjian sewa menyewa sarusunawa;</SPAN></FONT></FONT></FONT></P>
+		<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+		<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">menyusun
+		tata tertib dan aturan penghunian serta memberikan sosialisasi
+		kepada penghuni rusunawa, termasuk hak, kewajiban dan larangan;</SPAN></FONT></FONT></FONT></P>
+		<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+		<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">memonitor
+		kesesuaian/kebenaran penghuni yang tinggal di rusunawa sesuai
+		dengan perjanjian sewa menyewa yang telah ditandatangani minimal 3
+		(tiga) bulan sekali; dan</SPAN></FONT></FONT></FONT></P>
+		<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+		<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">menjaga,
+		merawat dan memeiihara prasarana, sarana dan utilitas.</SPAN></FONT></FONT></FONT></P>
+	</OL>
+</OL>
+<P LANG="id-ID" CLASS="western" ALIGN=CENTER><BR>
+</P>
+<H1 CLASS="western" STYLE="margin-left: 0.59in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Pasal
+ 5</FONT></FONT></FONT></H1>
+<P CLASS="western" ALIGN=CENTER STYLE="margin-left: 0.59in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>H</B></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>AK
+DAN KEWAJIBAN</B></SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>
+PIHAK </B></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>KEDUA</B></SPAN></FONT></FONT></FONT></FONT></P>
+<P CLASS="western" ALIGN=CENTER STYLE="margin-left: 0.59in"><BR>
+</P>
+<OL>
+	<LI><P CLASS="western" ALIGN=JUSTIFY><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">PIHAK
+	</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">KEDU</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">A
+	berhak </FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">untuk
+	:</SPAN></FONT></FONT></FONT></P>
+</OL>
+<OL TYPE=a>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">menempati/memanfaatkan
+	Sarusunawa sebagaimana dimaksud dalam Pasal 1;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">mendapatkan
+	layanan suplai listrik, air bersih dan/atau pelayanan lainnya yang
+	ditetapkan oleh Kepala UPRS;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">mengajukan
+	keberatan atas pelayanan kondisi lingkungan hunian yang kurang
+	diperhatikan atau terawat kepada UPRS;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">mendapat
+	pelayanan atas perbaikan kerusakan bangunan, prasarana, sarana dan
+	utilitas umum yang bukan disebabkan oleh penghuni;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">menjadi
+	anggota rukun tetangga, rukun warga yang dimanfaatkan sebagai wadah
+	komunikasi dan sosialisasi guna kepentingan bersama;</SPAN></FONT></FONT></FONT></P>
+</OL>
+<P LANG="id-ID" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0.98in; margin-top: 0.03in; margin-bottom: 0.03in">
+<BR><BR>
+</P>
+<OL TYPE=a START=6>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">mendapat
+	penjelasan, pelatihan dan bimbingan tentang penanggulangan bahaya
+	kebakaran dan evakuasi, pengelolaan sampah, pembuangan limbah,
+	penghematan air, listrik dan lainnya; dan</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">memanfaatkan
+	prasarana, sarana dan utilitas sesuai dengan fungsi.</SPAN></FONT></FONT></FONT></P>
+</OL>
+<P CLASS="western" ALIGN=CENTER STYLE="margin-left: 0.69in; text-indent: -0.3in">
+<BR>
+</P>
+<OL START=2>
+	<LI><P CLASS="western" ALIGN=JUSTIFY><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">PIHAK
+	</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">KEDU</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">A
+	</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">berkewajiban
+	untuk :</SPAN></FONT></FONT></FONT></P>
+</OL>
+<OL TYPE=a>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">menaati
+	peraturan, tata tertib serta menjaga ketertiban lingkungan;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">mengikuti
+	aturan tentang kemampuan daya dukung bangunan;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">memelihara,
+	merawat, menjaga kebersihan sarusunawa dan sarana umum;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">membuang
+	sampah di tempat yang telah ditentukan secara rapi dan teratur;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">membayar
+	biaya pemakaian sarana air bersih, listrik dan/atau pelayanan
+	lainnya yang ditetapkan oleh Kepala UPRS;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">membayar
+	biaya sewa rusunawa dan jaminan biaya sewa rusunawa;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">melaporkan
+	pada pihak UPRS apabila melihat adanya kerusakan pada prasarana,
+	sarana dan utilitas di rusunawa;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">melaporkan
+	pada pihak UPRS apabila mengetahui adanya pemindahan hak sewa kepada
+	pihak lain;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">melaporkan
+	pada pihak UPRS apabila melihat adanya indikasi tindakan kriminal di
+	rusunawa;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">membayar
+	ganti rugi untuk setiap kerusakan yang diakibatkan kelalaian
+	penghuni;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">mengosongkan
+	sarusunawa pada saat perjanjian sewa menyewa berakhir/ dibatalkan
+	dan menyerahkan kembali kepada Kepala UPRS;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">berpartisipasi
+	dalam menciptakan lingkungan dan kehidupan bermasyarakat yang
+	harmonis;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">mengikuti
+	pelatihan dan bimbingan yang dilaksanakan oleh UPRS atau intansi
+	terkait lainnya; dan</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">mengurus
+	perubahan Kartu Tanda Penduduk dan Kartu Keluarga sesuai dengan
+	lokasi rumah susun selambat-Iambatnya 3 (tiga) bulan terhitung sejak
+	tanggal perjanjian ini ditandatangani.</SPAN></FONT></FONT></FONT></P>
+</OL>
+<H4 CLASS="western" STYLE="margin-left: 0.69in; text-indent: -0.3in; margin-top: 0.08in; margin-bottom: 0in">
+<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>Pasal</B></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>
+</B></SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>6</B></FONT></FONT></FONT></H4>
+<P CLASS="western" ALIGN=CENTER STYLE="margin-left: 0.69in; text-indent: -0.3in">
+<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>JAMINAN</B></SPAN></FONT></FONT></FONT></FONT></P>
+<P CLASS="western" ALIGN=CENTER STYLE="margin-left: 0.69in; text-indent: -0.3in">
+<BR>
+</P>
+<OL>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.06in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">PIHAK
+	KE</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">D</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">UA
+	wajib menyediakan Jaminan Uang </SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">B</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">iaya
+	Sewa pada saat Perjanjian ini ditandatangani oleh PARA PIHAK.</SPAN></FONT></FONT></FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.06in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">PIHAK
+	KE</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">D</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">UA
+	wajib membuka Rekening Tabungan di </SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">B</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">ank
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">D</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">KI
+	atas nama PIHAK KE</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">D</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">UA
+	dengan minimal Jaminan Uang </SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">B</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">iaya
+	Sewa sebesar 3 (t</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">i</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">ga)
+	kali dari biaya sewa sarusunawa yang dihuni oleh PIHAK KE</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">D</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">UA.</SPAN></FONT></FONT></FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.06in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">Jaminan
+	Uang </SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">B</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">iaya
+	Sewa tidak dapat dicairkan selama PIHAK KE</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">D</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">UA
+	menempati/menghuni sarusunawa.</SPAN></FONT></FONT></FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.06in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">PIHAK
+	PERTAMA menerima kuasa dari PIHAK KE</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">D</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">UA
+	untuk dapat mencairkan Jaminan Uang </SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">B</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">iaya
+	Sewa tersebut apabila :</SPAN></FONT></FONT></FONT></P>
+</OL>
+<OL TYPE=a>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.06in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">PIHAK
+	KE</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">D</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">UA
+	menunggak/tidak membayar biaya sewa pemakaian sarusunawa selama 3
+	(tiga) bulan berturut</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">-t</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">urut;
+	da</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">n</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">/atau</SPAN></FONT></FONT></FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.06in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">Sarusunawa
+	yang ditempati oleh PIHAK KE</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">D</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">UA
+	ditertibkan dengan memperhitungkan tunggakan biaya sewa yang belum
+	diselesaikan.</SPAN></FONT></FONT></FONT></P>
+</OL>
+<OL START=5>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.06in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">Jaminan
+	Uang </SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">B</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">iaya
+	Sewa tetap menjadi hak PIHAK KE</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">D</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">UA
+	sepanjang PIHAK KEDUA tidak memiliki tunggakan dan/atau melakukan
+	pelanggaran.</SPAN></FONT></FONT></FONT></P>
+</OL>
+<P ALIGN=CENTER STYLE="margin-left: 0.64in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>Pasal
+7</B></FONT></FONT></FONT></P>
+<P ALIGN=CENTER STYLE="margin-left: 0.64in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>LARANGAN</B></SPAN></FONT></FONT></FONT></P>
+<P ALIGN=CENTER STYLE="margin-left: 0.64in"><BR>
+</P>
+<OL>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">PIHAK
+	</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">KEDU</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">A
+	</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">dilarang</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">
+	</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">untuk
+	:</SPAN></FONT></FONT></FONT></P>
+</OL>
+<OL TYPE=a>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">memindahkan
+	hak sewa kepada pihak lain;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">menyewa
+	lebih dari satu sarusunawa;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">menggunakan
+	sarusunawa sebagai tempat usaha/gudang;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">mengubah
+	prasarana, sarana dan utilitas rusunawa yang sudah ada;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">menjemur
+	pakaian dan lainnya di luar tempat yang telah ditentukan;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">menjual/memakai/memproduksi
+	narkoba dan minuman keras, berjudi, berbuat maksiat, kegiatan yang
+	menimbulkan suara keras/bising, bau menyengat, termasuk memelihara
+	binatang;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">memasak
+	dengan menggunakan kayu, arang, atau bahan lain yang mengotori dan
+	dapat menimbulkan bahaya kebakaran;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">membuang
+	benda-benda ke dalam saluran air kamar mandi/WC yang dapat menyumbat
+	saluran pembuangan;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">menyimpan
+	segala jenis bahan peledak, bahan kimia, bahan bakar atau bahan
+	terlarang lainnya yang dapat menimbulkan kebakaran atau bahaya lain;</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">mengubah
+	konstruksi bangunan rusunawa; dan</SPAN></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.03in; margin-bottom: 0.03in">
+	<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">meletakkan
+	barang-barang melampaui daya dukung bangunan.</SPAN></FONT></FONT></FONT></P>
+</OL>
+<P ALIGN=CENTER STYLE="margin-left: 0.64in"><BR>
+</P>
+<P ALIGN=CENTER STYLE="margin-left: 0.64in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>Pasal
+8</B></FONT></FONT></FONT></P>
+<P ALIGN=CENTER STYLE="margin-left: 0.64in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>SANKSI</B></SPAN></FONT></FONT></FONT></P>
+<P ALIGN=CENTER STYLE="margin-left: 0.64in"><BR>
+</P>
+<OL>
+	<LI><P ALIGN=LEFT STYLE="margin-bottom: 0.04in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Apabila
+	PIHAK KEDUA terlambat</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">melaksanakan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">pembayaran</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">biaya</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sewa</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sebagaimana</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dimaksud
+	dalam</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Pasal
+	3, maka PIHAK KEDUA akan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dikenakan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">denda</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">setiap</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">bulan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sebesar
+	2% (dua persen) dari</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">biaya</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sewa</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">tertunggak.</FONT></FONT></FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.04in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Apabila</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">PIHAK</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">KEDUA
+	tidak</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">melaksanakan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">pembayaran</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">berikut</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dendanya</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sebagaimana</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dimaksud</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">pada</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ayat</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">(1),</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">maka</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">PIHAK</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">PERTAMA
+	akan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">melakukan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">penertiban.</FONT></FONT></FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.04in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Apabila
+	PIHAK KEDUA melanggar</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ketentuan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sebagaimana</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dimaksud</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dalam</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Pasal
+	7 huruf</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">a,
+	huruf b, dan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">huruf
+	d, maka PIHAK KEDUA dikenakan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sanksi</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">pidana</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">penjara
+	paling lama 1 (satu) tahun</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">atau</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">denda
+	paling banyak</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Rp
+	150.000.000,00 (seratus lima puluh</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">juta
+	rupiah) atau</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">denda</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">berupa</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ganti</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kerugian</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sebesar</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">jumlah
+	yang akan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ditentukan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kemudian</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">oleh
+	PIHAK PERTAMA dan/atau</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ditertibkan.</FONT></FONT></FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.04in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Apabila
+	PIHAK KEDUA melanggar</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ketentuan
+	yang dimaksud</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dalam</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Pasal
+	5 ayat (2) dan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Pasal
+	7 huruf f, maka</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Perjanjian</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ini</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">menja</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">d</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">i</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">batal
+	demi hukum dan PIHAK PERTAMA akan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">melakukan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">penertiban</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">pengosongan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sarusunawa.</FONT></FONT></FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.04in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Apabila
+	PIHAK KEDUA tidak</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">melaksanakan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kewajiban</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sebagaimana</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dimaksud</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dalam</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Pasal
+	5 ayat (2) dan/atau</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ayat
+	(1), maka PIHAK PERTAMA akan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">melakukan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">penertiban</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">pengosongan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sarusunawa.</FONT></FONT></FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.04in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Apabila</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">selama</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Perjanjian</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ini</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">berlangsung</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sarusunawa</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">tidak</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dihuni</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">selama
+	15 (lima belas) hari</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kalender</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">berturut-turut</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">tanpa</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">pemberitahuan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">secara</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">tertulis</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kepada
+	PIHAK PERTAMA, maka PIHAK PERTAMA akan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">melakukan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">pembatalan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">perjanjian</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sewa</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">menyewa</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">melakukan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">penyegelan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">serta</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">melakukan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">pengosongan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">secara</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">paksa.</FONT></FONT></FONT></P>
+</OL>
+<P LANG="id-ID" ALIGN=CENTER STYLE="margin-left: 0.64in; margin-bottom: 0.03in">
+<BR><BR>
+</P>
+<P ALIGN=CENTER STYLE="margin-left: 0.64in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>Pasal
+9</B></FONT></FONT></FONT></P>
+<P ALIGN=CENTER STYLE="margin-left: 0.64in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>PEMBATALAN
+DAN PENGAKHIRAN PERJANJIAN</B></SPAN></FONT></FONT></FONT></P>
+<P LANG="id-ID" ALIGN=CENTER STYLE="margin-left: 0.64in"><BR>
+</P>
+<OL>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.06in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Perj</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">a</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">njian</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ini</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">berakhir</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">secara</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">otomatis</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">pada</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">saat</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">jangka</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">waktu</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Perjanjian</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ini</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sebagai</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">mana</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dimaksud</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dalam</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Pasal
+	2 ayat (1).</FONT></FONT></FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.06in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Perjanjian</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ini</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">tidak</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dapat</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dibatalkan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">oleh</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">salah</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">satu</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">pihak</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kecuali</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">karena</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">alasan-alasan
+	yang se</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">c</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ara</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">tegas</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">disebutkan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dalam</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Perjanjian</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ini,
+	yaitu :</FONT></FONT></FONT></P>
+</OL>
+<OL TYPE=a>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.06in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">PIHAK
+	KEDUA tidak</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">melaksa</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">n</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">akan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">pembayaran</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">biaya</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sewa</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">berikut</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dendanya</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">selama
+	</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">3</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">
+	(tiga) bulan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">berturut-turut;
+	dan/atau</FONT></FONT></FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.06in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">PIHAK
+	KEDUA tidak</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">melaksanakan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kewajiban-kewajibannya</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sebagaimana</FONT></FONT></FONT></P>
+</OL>
+<P ALIGN=JUSTIFY STYLE="margin-left: 0.69in; margin-bottom: 0.06in"><FONT COLOR="#00000a">
+     <FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dimaksud</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dalam</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Pasal
+5 ayat (2), dan/atau</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">melanggar</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ketentuan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Pasal
+7.</FONT></FONT></FONT></P>
+<OL START=3>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.06in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Apabila
+	PIHAK KEDUA memenuhi</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">unsur</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">pembatalan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Perjanjian</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sebagaimana</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dimaksud</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">pada</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ayat
+	(2), maka PIHAK PERTAMA akan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">memberikan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Surat</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Teguran</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">yang
+	pertama</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kepada
+	PIHAK KED</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">U</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">A
+	agar PIHAK KEDUA segera</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">memenuhi</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kewajibannya</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dan/atau</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">memperbaiki</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kesalahan/pelanggaran
+	yang telah</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dibuatnya.</FONT></FONT></FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.06in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Apabila</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dalam</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">waktu
+	3 (tiga) hari</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kalender
+	PIHAK KEDUA tidak</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">memenuhi</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kewajibannya</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dan/atau</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">memperbaiki</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kesalahan/pelanggaran
+	yang telah</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dibuatnya,
+	maka PIHAK PERTAMA akan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">menerbitkan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Surat</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Teguran</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Kedua</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sebagai</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">teguran
+	yang terakhir</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kepada
+	PIHAK KEDUA.</FONT></FONT></FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.06in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Apabila</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dalam</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">waktu
+	3 (tiga) hari</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kalender</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sejak</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Surat</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Teguran
+	yang terakhir</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">diterbitkan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">PIHAK
+	KEDUA</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">tetap</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">tidak</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">memenuhi</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kewajibannya</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dan/atau</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">memperbaiki</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kesalahan/pelanggaran
+	yang telah</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dibuatnya,
+	maka PIHAK PERTAMA akan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">membatalkan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">secara</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sepihak</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Perjanjian</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ini.</FONT></FONT></FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.06in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Pembatalan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Perjanjian
+	se</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">c</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ara</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sepihak</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">oleh
+	PIHAK PERTAMA akan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dilakukan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dengan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">pemberitahuan
+	se</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">c</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ara</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">tertulis</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">disertai</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dengan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">melakukan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">penyegelan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sarusunawa,
+	dan PIHAK KEDUA harus</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">segera</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">meninggalkan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">mengosongkan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sarusunawa
+	paling lambat 7 (tujuh) hari</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kalender</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sejak</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">tanggal</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">pemberitahuan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">tersebut.</FONT></FONT></FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.06in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Sehubungan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dengan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">pembatalan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">terhadap</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Perjanjian</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ini,
+	PARA PIHAK sepakat</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">untuk</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">mengesampingkan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ketentuan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Pasal
+	1266 dan 1267 Kitab</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Undang-Undang</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Hukum</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Perdata.</FONT></FONT></FONT></P>
+</OL>
+<P ALIGN=JUSTIFY STYLE="margin-left: 0.69in; margin-bottom: 0.06in"><BR><BR>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-left: 0.69in; margin-bottom: 0.06in"><BR><BR>
+</P>
+<P ALIGN=CENTER STYLE="margin-left: 0.89in"><BR>
+</P>
+<P ALIGN=CENTER STYLE="margin-left: 0.64in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>Pasal
+10</B></FONT></FONT></FONT></P>
+<P ALIGN=CENTER STYLE="margin-left: 0.64in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>PENERTIBAN
+DAN PENGOSONGAN</B></SPAN></FONT></FONT></FONT></P>
+<P ALIGN=CENTER STYLE="margin-left: 0.64in"><BR>
+</P>
+<OL>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.08in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Apabila
+	PIHAK KEDUA </FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">tidak
+	meninggalkan dan mengosongkan sarusunawa dalam waktu 7 (tujuh) hari
+	kalender sejak pemberitahuan pembatalan Perjanjian dan penempelan
+	segel sebagaimana dimaksud dalam Pasal 9 ayat (6), </SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">maka
+	PIHAK </FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">PERTAMA
+	</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">akan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	menerbitkan Surat Peringatan (selanjutnya disebut “SP”) I
+	(kesatu).</SPAN></FONT></FONT></FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.08in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">Apabila
+	dalam waktu 3 (tiga) hari kalender sejak SP I (kesatu) diterbitkan
+	PIHAK KE</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">D</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">UA
+	tidak mengindahkan SP I (kesatu) tersebut maka PIHAK PERTAMA akan
+	menerbitkan SP II (kedua).</SPAN></FONT></FONT></FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.08in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">Apabila
+	dala</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">m</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">
+	waktu 3 (tiga) hari kalender PIHAK KE</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">D</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">UA
+	masih tetap tidak mengindahkan SP II (kedua) atau SP terakhir
+	tersebut, maka PIHAK PERTAMA akan me</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">l</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">akukan
+	pengosongan secara paksa terhadap PIHAK KE</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">D</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">UA
+	dan segala biaya serta risiko yang timbul atas pe</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">n</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">gosongan
+	paksa tersebut menj</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">a</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">di
+	beban PIHAK KE</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">D</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">UA.</SPAN></FONT></FONT></FONT></P>
+</OL>
+<P ALIGN=CENTER STYLE="margin-left: 0.64in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>Pasal
+</B></SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>11</B></FONT></FONT></FONT></P>
+<P ALIGN=CENTER STYLE="margin-left: 0.64in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>KETENTUAN
+LAIN-LAIN</B></SPAN></FONT></FONT></FONT></P>
+<P ALIGN=CENTER STYLE="margin-left: 0.64in"><BR>
+</P>
+<OL>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.06in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Apabila
+	terjadi keadaan memaksa (bencana alam, kebakaran) yang mengakibatkan
+	sarusunawa tidak dapat dipergunakan, Perjanjian ini batal dan/atau
+	berakhir demi hukum.</SPAN></FONT></FONT></FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.06in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Apabila
+	terjadi perubahan peruntukan atas tanah yang diatasnya berdiri
+	bangunan Rumah Susun Sederhana Sewa (Rusunawa) maka PIHAK KEDUA
+	harus mengosongkan sarusunawa tanpa menuntut ganti kerugian berupa
+	apapun dan dengan alasan apapun.</SPAN></FONT></FONT></FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.06in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Bahwa
+	pemakaian sarusunawa disebut sewa/kontrak bulanan dan pembayarannya
+	disebut pembayaran biaya sewa/kontrak bulanan.</SPAN></FONT></FONT></FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0.06in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Bahwa
+	tanah dan bangunan rusunawa yang dimaksud dalam Perjanjian ini
+	adalah aset/milik Pemerintah Provinsi DKI Jakarta.</SPAN></FONT></FONT></FONT></P>
+</OL>
+<P LANG="id-ID" ALIGN=JUSTIFY STYLE="margin-left: 1.09in"><BR>
+</P>
+<P ALIGN=CENTER STYLE="margin-left: 0.64in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>Pasal
+</B></SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>1</B></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>2</B></SPAN></FONT></FONT></FONT></P>
+<P ALIGN=CENTER STYLE="margin-left: 0.64in"><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>PERJANJIAN
+TAMBAHAN</B></SPAN></FONT></FONT></FONT></P>
+<P LANG="id-ID" ALIGN=CENTER STYLE="margin-left: 0.64in"><BR>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-left: 0.39in; margin-top: 0.04in; margin-bottom: 0.06in; line-height: 120%">
+<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Apabila</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">terdapat</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">hal-hal
+yang belum</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">diatur</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dan/atau</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">diperlukan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">perubahan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">terhadap</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">isi</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Perjanjian</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ini,
+maka</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">akan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">diatur</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dalam</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">suatu
+Addendum yang merupakan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">bagian</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">tidak</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">terpisahkan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dengan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Perjanjian</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ini</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">.</SPAN></FONT></FONT></FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-left: 0.39in; margin-top: 0.04in; margin-bottom: 0.06in; line-height: 120%">
+<FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Perjanjian</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ini</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dibuat</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dalam</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">rangkap
+</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">2</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">
+(</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">dua</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">)
+dengan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">materai</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">secukupnya</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ditandatangani</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">oleh</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+Para </SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Pihak</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">pada</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">hari</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dan</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">tanggal
+yang disebutkan di awal</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Perjanjian</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ini,
+sehingga</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+keduanya </SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">mempunyai</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kekuatan
+h</FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">u</SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kum
+yang sama.</FONT></FONT></FONT></P>
+<P LANG="id-ID" ALIGN=JUSTIFY STYLE="margin-left: 0.64in; margin-bottom: 0.03in">
+<BR><BR>
+</P>
+<TABLE WIDTH=690 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=288>
+	<COL WIDTH=5>
+	<COL WIDTH=2>
+	<COL WIDTH=4358>
+	<COL WIDTH=336>
+	<TR>
+		<TD COLSPAN=5 WIDTH=676 VALIGN=TOP STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.08in"><FONT COLOR="#000000">
+			    <FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Jakarta,
+			</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+			                         </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">2018</FONT></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=288 STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.08in; margin-right: -0.08in">
+			<BR>
+			</P>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.08in; margin-right: -0.08in">
+			<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">PIHAK
+			 KEDUA,</FONT></FONT></FONT></FONT></P>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.08in; margin-right: -0.08in">
+			<BR>
+			</P>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.08in; margin-right: -0.08in">
+			<BR>
+			</P>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.08in; margin-right: -0.08in">
+			<SPAN DIR="LTR" STYLE="float: left; width: 0.55in; height: 0.66in; border: 1px dashed #000000; padding: 0.05in 0.1in; background: #ffffff">
+				<P><BR>
+				</P>
+				<P ALIGN=CENTER><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=1 STYLE="font-size: 6pt">Pas
+				Photo</FONT></FONT></FONT></FONT></P>
+				<P ALIGN=CENTER><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=1 STYLE="font-size: 6pt">3x4</FONT></FONT></FONT></FONT></P>
+			</SPAN><BR>
+			</P>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.08in; margin-right: -0.08in">
+			<BR>
+			</P>
+		</TD>
+		<TD WIDTH=5 STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=JUSTIFY><BR>
+			</P>
+		</TD>
+		<TD COLSPAN=2 WIDTH=5 STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+			<P CLASS="western" ALIGN=RIGHT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=336 STYLE="border: none; padding: 0in">
+			<P LANG="sv-SE" CLASS="western" ALIGN=CENTER><BR>
+			</P>
+			<P CLASS="western" ALIGN=CENTER><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">PIHAK
+			PERTAMA,</SPAN></FONT></FONT></FONT></FONT></P>
+			<P CLASS="western" ALIGN=CENTER><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">Kepala
+			</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Unit
+			Pengelola Rumah Susun </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Cipinang</FONT></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=288 STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.08in; margin-right: -0.08in">
+			<BR>
+			</P>
+			<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: -0.08in; margin-right: -0.08in">
+			<BR>
+			</P>
+		</TD>
+		<TD WIDTH=5 STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=JUSTIFY><BR>
+			</P>
+			<P CLASS="western" ALIGN=JUSTIFY><BR>
+			</P>
+			<P CLASS="western" ALIGN=JUSTIFY><BR>
+			</P>
+		</TD>
+		<TD COLSPAN=3 WIDTH=355 STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+			<P CLASS="western" ALIGN=JUSTIFY><BR>
+			</P>
+			<P CLASS="western" ALIGN=JUSTIFY><BR>
+			</P>
+			<P CLASS="western" ALIGN=JUSTIFY><BR>
+			</P>
+			<P CLASS="western" ALIGN=JUSTIFY><BR>
+			</P>
+			<P CLASS="western" ALIGN=JUSTIFY><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">	</FONT></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=288 STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.08in; margin-right: -0.08in">
+			<FONT COLOR="#000000">………………<FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>..</B></FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=5 STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=JUSTIFY><BR>
+			</P>
+		</TD>
+		<TD WIDTH=2 STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+		</TD>
+		<TD COLSPAN=2 WIDTH=339 STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><FONT COLOR="#000000">        <FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>Drs.
+			NUGRAHARYADI</B></FONT></FONT></FONT></FONT></P>
+			<P CLASS="western" ALIGN=CENTER><FONT COLOR="#000000">       <FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">NIP
+			</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">197305021992031003</FONT></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+</TABLE>
+<P LANG="id-ID" ALIGN=LEFT><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P LANG="id-ID" CLASS="western"><BR>
+</P>
+<P ALIGN=CENTER><FONT COLOR="#000000"><FONT FACE="Arial, serif"><FONT SIZE=2><B><FONT SIZE=2 STYLE="font-size: 11pt"><U>SURAT
+PERNYATAAN</U></FONT></B></FONT></FONT></FONT></P>
+<P CLASS="western" ALIGN=CENTER STYLE="margin-bottom: 0.08in"><BR><BR>
+</P>
+<P CLASS="western" ALIGN=CENTER STYLE="margin-bottom: 0.08in"><BR><BR>
+</P>
+<P CLASS="western" STYLE="margin-left: 0.49in; text-indent: -0.1in; margin-bottom: 0.08in">
+<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">Yang
+bertanda tangan dibawah ini :</SPAN></FONT></FONT></FONT></FONT></P>
+<TABLE WIDTH=603 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=111>
+	<COL WIDTH=5>
+	<COL WIDTH=445>
+	<TR VALIGN=TOP>
+		<TD WIDTH=111 HEIGHT=5 STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="text-indent: 0.02in; margin-top: 0.01in">
+			<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">Nama</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=5 STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">:</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=445 STYLE="border: none; padding: 0in">
+			<P ALIGN=JUSTIFY STYLE="text-indent: -0.08in"><FONT COLOR="#00000a">
+			 <FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>DENY
+			KOSASIH</B></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=111 HEIGHT=5 STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="text-indent: 0.02in; margin-top: 0.01in">
+			<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">Agama</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=5 STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">:</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=445 STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Islam</FONT></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=111 HEIGHT=6 STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="text-indent: 0.02in; margin-top: 0.01in">
+			<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">Pekerjaan</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=5 STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">:</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=445 STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Wiraswasta</FONT></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=111 HEIGHT=60 STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="text-indent: 0.02in; margin-top: 0.01in">
+			<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">Alamat</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=5 STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">:</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=445 STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Rusun
+			Cipinang Besar Selatan Blok B Lantai IV No. 501 RT 016 RW 005 Kel.
+			Cipinang Besar Selatan Kec. Jatinegara Kota Administrasi Jakarta
+			Timur.</FONT></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+</TABLE>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0.39in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">D</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">engan
+ini menyatakan</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+dengan sebenarnya, bahwa </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">:</SPAN></FONT></FONT></FONT></FONT></P>
+<OL>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+	<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Bersedia</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dan</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">taat</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">terhadap</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">tata</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">tertib</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Penghunian</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Rumah</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Susun</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	Sederhana </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Sewa;</FONT></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+	<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Bersedia
+	dan</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sanggup</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">menyewa/mengontrak
+	Unit </FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Sewa
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sesuai</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dengan</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kondisi
+	fasilitas yang ada</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">pada
+	unit dan</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">lingkungan</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Rumah</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Susun</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Sederhana</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Sewa.</FONT></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+	<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Bersedia</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dan</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sanggup</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">membayar
+	:</FONT></FONT></FONT></FONT></P>
+	<OL TYPE=a>
+		<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+		<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">Retribusi/sewa
+		setiap bulan kepada Pemda DKI Jakarta/Unit </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Pengelola</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+		</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Rusun
+		Cipinang;</FONT></FONT></FONT></FONT></P>
+		<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+		<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">Rekening
+		pemakaian listrik kepada PLN/Unit Pengelola Rusun </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Cipinang</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="nb-NO">;</SPAN></FONT></FONT></FONT></FONT></P>
+		<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+		<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">Rekening
+		pemakaian Air PAM kepada Unit </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Pengelola
+		Rusun Cipinang;</FONT></FONT></FONT></FONT></P>
+	</OL>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+	<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Bersedia
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>membuka
+	Rekening Tabungan Bank DKI Cabang Jatibaru – Jakarta Pusat</B></SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	 sebagai Uang Jaminan minimal sebesar 3 kali pembayaran retribusi
+	sewa Unit Hunian Rumah Susun Sederhana Sewa atas nama saya</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">.</SPAN></FONT></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+	<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Tidak
+	akan mempergunakan/menyimpan Narkoba, zat-zat kimia berbahaya dan
+	binatang peliharaan pada Unit </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Sewa</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	yang saya tempati.</SPAN></FONT></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+	<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">Tidak
+	mengalihkan/memberikan/mengontrakan dan menjual </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Unit
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Sewa</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">yang
+	saya sewa kepada pihak lain dengan alasan apapun.</SPAN></FONT></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+	<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">Tidak
+	merubah/menambah bentuk bangunan </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">unit
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">yang
+	saya sewa tanpa persetujuan dari Dinas Perumahan Rakyat dan Kawasan
+	Permukiman Provinsi DKI Jakarta.</SPAN></FONT></FONT></FONT></FONT></P>
+	<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+	<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">Apabila
+	saya tidak mentaati/melanggar Surat Pernyataan ini, maka saya
+	bersedia </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">secara
+	sukarela </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">untuk
+	mengosongkan </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Unit
+	</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">Rumah
+	Susun Sederhana Sewa yang saya sewa dan mengembalikannya kepada
+	Dinas Perumahan Rakyat dan Kawasan Permukiman Provinsi DKI
+	Jakarta/U</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">nit</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">
+	Pengelola Rusun </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Cipinang.</FONT></FONT></FONT></FONT></P>
+</OL>
+<P ALIGN=JUSTIFY STYLE="margin-left: 0.39in; text-indent: -0.39in; line-height: 100%">
+<FONT COLOR="#000000"><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="sv-SE">	Demikian
+Surat Pernyataan ini saya buat sesuai dengan yang sebenarnya dan
+dalam keadaan sehat jasmani dan rohani serta tanpa ada unsur paksaan
+dari pihak manapun.</SPAN></FONT></FONT></FONT></P>
+<P LANG="sv-SE" ALIGN=JUSTIFY STYLE="margin-left: 0.39in; text-indent: -0.39in; line-height: 100%">
+<BR>
+</P>
+<P LANG="sv-SE" ALIGN=JUSTIFY STYLE="margin-left: 0.39in; text-indent: -0.39in; line-height: 100%">
+<BR>
+</P>
+<TABLE WIDTH=345 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=331>
+	<TR>
+		<TD WIDTH=331 HEIGHT=47 VALIGN=TOP STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-right: 0.03in"><BR>
+			</P>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-right: 0.03in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Jakarta,
+			</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+			                         </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">2018</FONT></FONT></FONT></FONT></P>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-right: 0.03in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Yang
+			</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">membuat
+			pernya</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">taan</FONT></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=331 HEIGHT=113 VALIGN=TOP STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-right: 0.03in"><BR>
+			</P>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-right: 0.03in"><SPAN DIR="LTR" STYLE="float: left; width: 0.5in; height: 0.44in; border: 1px dashed #000000; padding: 0.05in 0.1in; background: #ffffff">
+				<P><BR>
+				</P>
+				<P ALIGN=CENTER><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=1 STYLE="font-size: 6pt">Materai</FONT></FONT></FONT></FONT></P>
+				<P ALIGN=CENTER><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=1 STYLE="font-size: 6pt">6.000</FONT></FONT></FONT></FONT></P>
+			</SPAN><BR>
+			</P>
+			<P LANG="id-ID" CLASS="western" ALIGN=CENTER STYLE="margin-right: 0.03in">
+			<BR>
+			</P>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-right: 0.03in"><BR>
+			</P>
+			<P CLASS="western" STYLE="margin-right: 0.03in"><BR>
+			</P>
+			<P CLASS="western" STYLE="margin-right: 0.03in"><BR>
+			</P>
+			<P LANG="id-ID" CLASS="western" ALIGN=CENTER STYLE="margin-right: 0.03in">
+			<BR>
+			</P>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-right: 0.03in"><FONT COLOR="#000000">………………<FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>.</B></FONT></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+</TABLE>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><SPAN DIR="LTR" STYLE="float: left; width: 3.86in; height: 0.51in; border: none; padding-top: 0in; padding-bottom: 0.1in; padding-left: 0.04in; padding-right: 0.1in; background: #ffffff">
+	<P ALIGN=CENTER><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=3><SPAN LANG="id-ID">Rusunawa
+	: </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=3><B>Cipinang
+	Besar Selatan</B></FONT></FONT></FONT></FONT></P>
+	<P ALIGN=CENTER><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=3><SPAN LANG="id-ID">Unit
+	Pengelola Rumah Susun Cipinang</SPAN></FONT></FONT></FONT></FONT></P>
+</SPAN><BR>
+</P>
+<P LANG="id-ID" CLASS="western"><BR>
+</P>
+<P LANG="id-ID" CLASS="western"><BR>
+</P>
+<P LANG="id-ID" CLASS="western"><BR>
+</P>
+<P LANG="id-ID" CLASS="western"><BR>
+</P>
+<P CLASS="western" ALIGN=CENTER><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><U><B>SURAT
+KUASA</B></U></FONT></FONT></FONT></FONT></P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0.39in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Yang
+bertandatangandibawahini, saya :</FONT></FONT></FONT></FONT></P>
+<P CLASS="western"><BR>
+</P>
+<TABLE WIDTH=603 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=191>
+	<COL WIDTH=6>
+	<COL WIDTH=364>
+	<TR VALIGN=TOP>
+		<TD WIDTH=191 HEIGHT=4 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Nama</FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=6 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">:</FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=364 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.01in"><FONT COLOR="#000000">…………………<FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>.</B></FONT></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=191 HEIGHT=16 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Alamat</FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=6 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">:</FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=364 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0.01in"><FONT COLOR="#000000">………………………………</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=191 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">N</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">I</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">K</FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=6 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">:</FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=364 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.01in"><FONT COLOR="#000000">………………………………</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=191 HEIGHT=11 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">No.
+			Rekening Tabungan</FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=6 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">:</FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=364 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.01in"><FONT COLOR="#000000">………………………………<FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">..</FONT></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=191 HEIGHT=11 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Bank
+			DKI</FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=6 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">:</FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=364 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.01in"><FONT COLOR="#000000">………………………………<FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="en-ID">.</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+</TABLE>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="text-indent: 0.39in; margin-top: 0.08in; margin-bottom: 0.08in">
+<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Dengan
+ini memberikan kuasa kepada Bank DKI untuk  :</FONT></FONT></FONT></FONT></P>
+<OL>
+	<LI><P LANG="id-ID" ALIGN=JUSTIFY STYLE="margin-top: 0.08in; margin-bottom: 0.08in; line-height: 100%">
+	<FONT COLOR="#000000"><FONT FACE="Calibri, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><FONT FACE="Arial, serif">Melakukan
+	pemblokiran saldo di Tabungan tersebut diatas sesuai permintaan dari
+	Unit Pengelola Rumah Susun </FONT><FONT FACE="Arial, serif"><SPAN LANG="en-US">Cipinang
+	</SPAN></FONT><FONT FACE="Arial, serif">Dinas Perumahan</FONT><FONT FACE="Arial, serif"><SPAN LANG="en-US">
+	Rakyat </SPAN></FONT><FONT FACE="Arial, serif">dan</FONT><FONT FACE="Arial, serif"><SPAN LANG="en-US">
+	Kawasan Permukiman</SPAN></FONT><FONT FACE="Arial, serif"> Provinsi
+	DKI Jakarta.</FONT></FONT></FONT></FONT></P>
+	<LI><P LANG="id-ID" ALIGN=JUSTIFY STYLE="margin-top: 0.08in; margin-bottom: 0.08in; line-height: 100%">
+	<FONT COLOR="#000000"><FONT FACE="Calibri, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><FONT FACE="Arial, serif">Melakukan
+	pemindahbukuan untuk pembayaran sewa/angsuran bulanan dan/atau
+	biaya-biaya lainnya sesuai ketentuan ke rekening  :</FONT></FONT></FONT></FONT></P>
+</OL>
+<P ALIGN=JUSTIFY STYLE="margin-left: 0.5in; line-height: 100%"><BR>
+</P>
+<TABLE WIDTH=631 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=137>
+	<COL WIDTH=5>
+	<COL WIDTH=447>
+	<TR VALIGN=TOP>
+		<TD WIDTH=137 STYLE="border: none; padding: 0in">
+			<P LANG="id-ID" ALIGN=JUSTIFY STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT FACE="Calibri, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><FONT FACE="Arial, serif">Nama</FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=5 STYLE="border: none; padding: 0in">
+			<P LANG="id-ID" ALIGN=JUSTIFY STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT FACE="Calibri, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><FONT FACE="Arial, serif"><SPAN LANG="en-US">:</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=447 STYLE="border: none; padding: 0in">
+			<P LANG="id-ID" ALIGN=JUSTIFY STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT FACE="Calibri, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><FONT FACE="Arial, serif"><B>SS
+			UPT Rumah Susun </B></FONT><FONT FACE="Arial, serif"><SPAN LANG="en-US"><B>Cipinang</B></SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=137 STYLE="border: none; padding: 0in">
+			<P LANG="id-ID" ALIGN=JUSTIFY STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT FACE="Calibri, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><FONT FACE="Arial, serif">No.
+			Rekening</FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=5 STYLE="border: none; padding: 0in">
+			<P LANG="id-ID" ALIGN=JUSTIFY STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT FACE="Calibri, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><FONT FACE="Arial, serif"><SPAN LANG="en-US">:</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=447 STYLE="border: none; padding: 0in">
+			<P LANG="id-ID" ALIGN=JUSTIFY STYLE="margin-top: 0.01in; margin-bottom: 0.01in">
+			<FONT COLOR="#000000"><FONT FACE="Calibri, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><FONT FACE="Arial, serif"><SPAN LANG="en-US"><B>503</B></SPAN></FONT><FONT FACE="Arial, serif"><B>.</B></FONT><FONT FACE="Arial, serif"><SPAN LANG="en-US"><B>02</B></SPAN></FONT><FONT FACE="Arial, serif"><B>.</B></FONT><FONT FACE="Arial, serif"><SPAN LANG="en-US"><B>02076</B></SPAN></FONT><FONT FACE="Arial, serif"><B>.</B></FONT><FONT FACE="Arial, serif"><SPAN LANG="en-US"><B>5</B></SPAN></FONT></FONT></FONT></FONT></P>
+			<P ALIGN=JUSTIFY STYLE="margin-top: 0.01in"><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=3 WIDTH=617 VALIGN=TOP STYLE="border: none; padding: 0in">
+			<P LANG="id-ID" ALIGN=JUSTIFY STYLE="margin-top: 0.01in"><FONT COLOR="#000000"><FONT FACE="Calibri, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><FONT FACE="Arial, serif">Di
+			Bank DKI Cabang Pembantu </FONT><FONT FACE="Arial, serif"><SPAN LANG="en-US">Pondok
+			Kelapa</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+</TABLE>
+<P ALIGN=JUSTIFY STYLE="margin-left: 0.5in; line-height: 100%"><BR>
+</P>
+<H2 CLASS="western" ALIGN=JUSTIFY><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Nominal
+dana</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">diblokir,
+nominal sewa</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">/angsuran
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">bulanan</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dan/atau
+nominal biaya-biaya lainnya</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">terkait</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">kewajiban</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+atas penghunian/penggunaan </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Rusunawa</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>Cipinang</B></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>
+</B></SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>Besar
+Selatan</B></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID"><B>
+</B></SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Blok
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>B
+</B></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Lantai
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="en-ID"><B>V</B></SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">
+</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">No.
+Unit </SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>501</B></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sesuai</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dengan</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">rincian
+yang disampaikan</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">oleh
+U</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">nit
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Pengelola</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Rumah</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Susun
+Cipinang Dinas</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Perumahan
+Rakyat dan Kawasan Permukiman</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Provinsi
+DKI Jakarta ke Bank DKI.</FONT></FONT></H2>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="line-height: 110%"><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0.39in; line-height: 110%">
+<FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Surat</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Kuasa</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ini</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dibuat</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">untuk</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dipergunakan</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">sebagaimana</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">mestinya</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dan</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">tidak</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dapat</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dicabut</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">tanpa</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">persetujuan</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dari
+U</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">nit
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Pengelola</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Rumah</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Susun
+Cipinang Dinas</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Perumahan
+Rakyat</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">dan</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">
+</SPAN></FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Kawasan
+Permukiman Provinsi DKI Jakarta.</FONT></FONT></FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY><BR>
+</P>
+<TABLE WIDTH=633 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=298>
+	<COL WIDTH=62>
+	<COL WIDTH=232>
+	<TR>
+		<TD WIDTH=298 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Jakarta,
+			                      2018</FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+		</TD>
+		<TD WIDTH=232 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Penerima
+			Kuasa</FONT></FONT><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">,</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=298 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Yang
+			memberi kuasa,</FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+		</TD>
+		<TD WIDTH=232 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt">PT.
+			Bank DKI</FONT></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=298 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+		</TD>
+		<TD WIDTH=62 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+		</TD>
+		<TD WIDTH=232 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=298 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><SPAN DIR="LTR" STYLE="float: left; width: 0.5in; height: 0.44in; border: 1px dashed #000000; padding: 0.05in 0.1in; background: #ffffff">
+				<P><BR>
+				</P>
+				<P ALIGN=CENTER><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=1 STYLE="font-size: 6pt">Materai</FONT></FONT></FONT></FONT></P>
+				<P ALIGN=CENTER><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=1 STYLE="font-size: 6pt">6.000</FONT></FONT></FONT></FONT></P>
+			</SPAN><BR>
+			</P>
+		</TD>
+		<TD WIDTH=62 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+		</TD>
+		<TD WIDTH=232 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=298 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+		</TD>
+		<TD WIDTH=62 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+		</TD>
+		<TD WIDTH=232 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=298 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+		</TD>
+		<TD WIDTH=62 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+		</TD>
+		<TD WIDTH=232 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=298 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+		</TD>
+		<TD WIDTH=62 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+		</TD>
+		<TD WIDTH=232 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=298 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><FONT COLOR="#000000"><U>……………………<FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>.</B></U></FONT></FONT></FONT></FONT></P>
+			<P CLASS="western" ALIGN=CENTER><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Nama
+			jelas</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=62 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P CLASS="western" ALIGN=CENTER><BR>
+			</P>
+		</TD>
+		<TD WIDTH=232 BGCOLOR="#ffffff" STYLE="border: none; padding: 0in">
+			<P LANG="id-ID" CLASS="western" ALIGN=CENTER><BR>
+			</P>
+			<P CLASS="western" ALIGN=CENTER><FONT COLOR="#000000"><FONT SIZE=2><FONT FACE="Arial, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN LANG="id-ID">Pemimpin</SPAN></FONT></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+</TABLE>
+<P CLASS="western"><BR>
+</P>
+<P LANG="id-ID" CLASS="western"><BR>
+</P>
+<P LANG="id-ID" CLASS="western"><BR>
+</P>
+<P LANG="id-ID" CLASS="western"><BR>
+</P>
+<P LANG="id-ID" CLASS="western"><BR>
+</P>
+<P LANG="id-ID" CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<P CLASS="western"><BR>
+</P>
+<DIV TYPE=FOOTER>
+	<P ALIGN=RIGHT><FONT COLOR="#000000"><SDFIELD TYPE=PAGE SUBTYPE=RANDOM FORMAT=PAGE>14</SDFIELD></FONT><SPAN DIR="LTR" STYLE="float: left; width: 3.43in; height: 0.26in; border: 1px solid #ffffff; padding: 0.05in 0.1in; background: #ffffff">
+		<P><BR>
+		</P>
+	</SPAN>
+	</P>
+	<P LANG="id-ID"><BR>
+	</P>
+</DIV>
+</BODY>
+</HTML>

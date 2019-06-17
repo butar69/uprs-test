@@ -1,0 +1,16 @@
+	<!-- <head>
+		<center><strong><h2>Keterangan ID Rumah Susun</h2></strong></center>
+	<section class="konten">
+   	<div class="container">
+
+							<div class="row">
+								<div class="col-md-6">
+									<h5></h5>
+									Masukan ID Rusun 24 untuk Cipinang Besar Selatan<br>
+									Masukan ID Rusun 26 untuk Cipinang Muara<br>
+									Masukan ID Rusun 20 untuk Pondok Bambu<br>
+									Masukan ID Rusun 29 untuk BLK Pasar Rebo<br>
+								</div>
+							</div>
+	</div>
+	</section>	<br>	 -->

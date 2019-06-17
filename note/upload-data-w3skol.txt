@@ -1,0 +1,42 @@
+  <?php
+                                if(isset($_POST['import'])) {
+                                  $file = $_FILES['file']['name'];
+                                  $ekstensi = explode(".", $file);
+                                  $file_name = "file-".round(microtime(true)).".".end($ekstensi);
+                                  $sumber = $_FILES['file']['tmp_name'];
+                                  $target_dir = "../_file/";
+                                  $target_file = $target_dir.$target_file;
+                                  $upload = move_uploaded_file($sumber, $target_file);
+                                  if ($upload) {
+                                    echo "Upload Sukses";
+                                  } else{
+                                    echo "Upload Gagal";
+                                  }
+                                }
+                           ?>
+
+
+
+
+
+
+
+
+ <?php
+                            $target_dir = "../_file/";
+                            $target_file = $target_dir . basename($_FILES["file"]["name"]);
+                            $uploadOk = 1;
+                            $fileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+                            
+                            if(isset($_POST["import"])) {
+                                $check = filesize($_FILES["file"]["tmp_name"]);
+                                if($check !== false) {
+                                    echo "Update Berhasil! - " . $check["mime"] . ".";
+                                    $uploadOk = 1;
+                                } else {
+                                    echo "Update Gagal!";
+                                    $uploadOk = 0;
+                                }
+                            }
+
+                          ?>

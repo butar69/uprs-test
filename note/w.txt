@@ -1,0 +1,32 @@
+if (isset($_POST["daftar"]))
+						{
+							// mengambil isian nama,email,password,alamt,telepon
+							$nomorkk  = $_POST["nomorkk"];
+							$nomorsp  = $_POST["nomorsp"];
+							$namasp  = $_POST["namasp"];
+							$nik = $_POST['nik'];
+							$nama = $_POST["nama"];
+							$umur = $_POST["umur"];
+							$jeniskelamin = $_POST["jeniskelamin"];
+							$pekerjaan = $_POST["pekerjaan"];
+
+							// cek apakah email sudah digunakan
+							$ambil = $koneksi->query("SELECT * FROM warga");
+							$yangcocok = $ambil->num_rows;
+							if ($yangcocok>0)
+							{
+								echo "<script>alert('pendaftaran gagal, nomor sp sudah digunakan');</script>";
+								echo "<script>location='pendaftaran.php';</script>";
+							}
+							else
+							{
+								// query insert ke tabel pelanggan
+								$koneksi->query("INSERT INTO warga
+									(nik_warga,nosp_warga,namasp_warga,nama_warga,
+									jeniskelamin_warga,pekerjaan_warga,umur_warga)
+									VALUES ('$nosp','$namasp','$nama','$jeniskelamin','$pekerjaan','$umur')");
+
+								echo "<script>alert('pendaftaran sukses');</script>";
+								echo "<script>location='cibesel.php';</script>";
+							}
+						}

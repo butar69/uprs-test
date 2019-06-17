@@ -1,0 +1,20 @@
+<div class="form-group">
+								<label class="control-label col-md-3">Lokasi Rumah Susun</label>
+								<div class="col-md-7">
+									<input type="text" class="form-control" name="lokasirusun" required>
+								</div>
+							<div class="form-group">
+								<label class="control-label col-md-3">Blok</label>
+								<div class="col-md-7">
+									<input type="text" class="form-control" name="tarif" required>
+								</div>
+							<div class="form-group">
+								<label class="control-label col-md-3">Lantai</label>
+								<div class="col-md-7">
+									<input type="text" class="form-control" name="blok" required>
+							<div class="form-group">
+								<label class="control-label col-md-3">Tarif</label>
+								<div class="col-md-7">
+									<input type="text" class="form-control" name="lantai" required>
+								</div>
+								</div>

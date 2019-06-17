@@ -1,0 +1,51 @@
+<?php
+                            if (isset($_POST["import"])) {
+                                
+                                $fileName = $_FILES["file"]["name"];
+                                
+                                if ($_FILES["file"]["size"] > 0) {
+                                    
+                                    $file = fopen($fileName, "r");
+                                    
+                                    while (($column = fgetcsv($file, 10000, ",")) !== FALSE) {
+                                        $sqlInsert = "INSERT into sewa_cibesel (id_sewa,nomor_va,nama_penghuni,bulan_tunggakan,nomor_unit,sewa,air,denda,total,val)
+                                              values ('" . $column[0] . "','" . $column[1] . "','" . $column[2] . "','" . $column[3] . "','" . $column[4] . "','" . $column[5] . "'
+                                              ,'" . $column[6] . "','" . $column[7] . "','" . $column[8] . "','" . $column[9] . "','" . $column[10] . "')";
+                                        $result = mysqli_query($koneksi, $sqlInsert);
+                                        
+                                        if (! empty($result)) {
+                                            $type = "success";
+                                            $message = "CSV Data Imported into the Database";
+                                        } else {
+                                            $type = "error";
+                                            $message = "Problem in Importing CSV Data";
+                                        }
+                                    }
+                                }
+                            }
+                            ?>
+
+                          <script type="text/javascript">
+                              $(document).ready(
+                              function() {
+                                $("#frmCSVImport").on(
+                                "submit",
+                                function() {
+
+                                  $("#response").attr("class", "");
+                                  $("#response").html("");
+                                  var fileType = ".csv";
+                                  var regex = new RegExp("([a-zA-Z0-9\s_\\.\-:])+("
+                                      + fileType + ")$");
+                                  if (!regex.test($("#file").val().toLowerCase())) {
+                                    $("#response").addClass("error");
+                                    $("#response").addClass("display-block");
+                                    $("#response").html(
+                                        "Invalid File. Upload : <b>" + fileType
+                                            + "</b> Files.");
+                                    return false;
+                                  }
+                                  return true;
+                                });
+                              });
+                            </script>

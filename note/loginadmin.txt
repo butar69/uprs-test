@@ -1,0 +1,2 @@
+id admin : admin@uprs
+pass admin : @dm1n_123

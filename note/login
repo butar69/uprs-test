@@ -1,0 +1,102 @@
+<?php
+session_start();
+$koneksi = new mysqli("localhost","root","","uprs")
+?>
+<!DOCTYPE html>
+  <title>UPRS | Administrator</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="plugins/iCheck/flat/blue.css">
+  <!-- Morris chart -->
+  <link rel="stylesheet" href="plugins/morris/morris.css">
+  <!-- jvectormap -->
+  <link rel="stylesheet" href="plugins/jvectormap/jquery-jvectormap-1.2.2.css">
+  <!-- Date Picker -->
+  <link rel="stylesheet" href="plugins/datepicker/datepicker3.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker-bs3.css">
+  <!-- bootstrap wysihtml5 - text editor -->
+  <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+</head>
+<body>
+  <div id="wrapper">
+    <div class="container">
+        <div class="row text-center ">
+            <div class="col-md-12">
+                <br /><br />
+                <h2> UPRS | Login</h2>
+            </div>
+        </div>
+         <div class="row ">
+                  <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                        <strong> Masukan ID dan Password </strong>
+                            </div>
+                            <div class="panel-body">
+
+                                <form role="form" method="post" class="navbar-form">
+                                       <br/>
+
+                                     <div class="form-group input-group">
+                                            <span class="input-group-addon"><i class="fa fa-tag"  ></i></span>
+                                            <input type="text" class="form-control" name="user" autofocus/>
+                                        </div>
+                                        <div class="form-group input-group">
+                                            <span class="input-group-addon"><i class="fa fa-lock"  ></i></span>
+                                            <input type="password" class="form-control" name="pass" />
+                                        </div>
+
+
+
+                                     <button class="btn btn-primary" name="login">Login</button>
+                                    <hr />
+                                    </form>
+
+                                    <?php
+                                    if (isset($_POST['login']))
+                                    {
+                                      $ambil = $koneksi->query("SELECT * FROM admin WHERE user='$_POST[user]' AND pass ='$_POST[pass]'");
+                                      $yangcocok = $ambil->num_rows;
+                                      if ($yangcocok==1)
+                                      {
+                                        $_SESSION['admin'] = $ambil->fetch_assoc();
+                                        echo "<div class='alert alert-info'>Login Berhasil</div>";
+                                        echo "<meta http-equiv='refresh' content='1;url=index.php'>";
+                                      }
+                                      else
+                                      {
+                                        echo "<div class='alert alert-danger'>Login Gagal</div>";
+                                        echo "<meta http-equiv='refresh' content='1;url=admin.php'>";
+                                      }
+                                    }
+                                    ?>
+                            </div>
+                        </div>
+                    </div>
+
+        		</div>
+    		</div>
+
+     <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+      <!-- BOOTSTRAP SCRIPTS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- METISMENU SCRIPTS -->
+    <script src="assets/js/jquery.metisMenu.js"></script>
+      <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
+
+</body>
+</html>

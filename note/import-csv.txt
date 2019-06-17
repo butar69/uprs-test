@@ -1,0 +1,56 @@
+//php import_csv:
+
+<?php
+ if(isset($_POST['import'])){
+                            
+    $filename=$_FILES['file']['tmp_name']; 
+    if($_FILES['file']['size'] > 0)
+      {
+          $file = fopen($filename, "r");
+            while (($getData = fgetcsv($file, 10000, ",")) !== FALSE)
+            {
+              $sql = "INSERT into sewa_cibesel (id_sewa,nomor_va,nama_penghuni,bulan_tunggakan,nomor_unit,sewa,air,denda,total,val) 
+                    values ('".$getData[0]."','".$getData[1]."','".$getData[2]."','".$getData[3]."','".$getData[4]."','".$getData[5]."'
+                    ,'".$getData[6]."','".$getData[7]."','".$getData[8]."','".$getData[9]."','".$getData[10]."')";
+                    $result = mysqli_query($koneksi, $sql);
+          if(!isset($result))
+          {
+            echo "<script type=\"text/javascript\">
+                alert(\"Invalid File:Please Upload CSV File.\");
+                window.location = \"import_cibesel.php\"
+                </script>";    
+          }
+          else {
+              echo "<script type=\"text/javascript\">
+              alert(\"CSV File has been successfully Imported.\");
+              window.location = \"import_cibesel.php\"
+            </script>";
+          }
+            }
+        
+            fclose($file);  
+      }
+    }    
+?>
+
+
+//jquery import csv:
+ 
+    <script type="text/javascript">
+      $(document).ready(function() {
+          $("#frmCSVImport").on("submit", function () {
+
+            $("#response").attr("class", "");
+              $("#response").html("");
+              var fileType = ".csv";
+              var regex = new RegExp("([a-zA-Z0-9\s_\\.\-:])+(" + fileType + ")$");
+              if (!regex.test($("#file").val().toLowerCase())) {
+                    $("#response").addClass("error");
+                    $("#response").addClass("display-block");
+                  $("#response").html("Invalid File. Upload : <b>" + fileType + "</b> Files.");
+                  return false;
+              }
+              return true;
+          });
+      });
+      </script>

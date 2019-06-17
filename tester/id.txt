@@ -1,0 +1,9 @@
+epiz hosting account ! 
+id : epiz_23753118
+password : daniel691996
+
+database !
+dbname : epiz_23753118_uprs
+dbusername : epiz_23753118
+password : daniel691996
+hostname : sql205.epizy.com
